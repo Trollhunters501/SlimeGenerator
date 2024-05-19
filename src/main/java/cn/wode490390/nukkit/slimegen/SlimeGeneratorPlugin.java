@@ -14,7 +14,6 @@ public class SlimeGeneratorPlugin extends PluginBase {
 
         }
 
-        Generator.addGenerator(SlimeGenerator.class, "default", Generator.TYPE_INFINITE);
-        Generator.addGenerator(SlimeGenerator.class, "normal", Generator.TYPE_INFINITE);
+        Generator.addGenerator(SlimeGenerator.class, "slime", Generator.TYPE_INFINITE);
     }
 }
